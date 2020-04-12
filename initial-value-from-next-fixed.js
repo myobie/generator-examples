@@ -1,8 +1,7 @@
 const adder = add()
+adder.next([1, 1]) // get things moving
 
 for (let i = 0; i < 10; ++i) {
-  adder.next([1, 1]) // get things moving
-
   const left = randomInteger()
   const right = randomInteger()
   const expectedAnswer = left + right
